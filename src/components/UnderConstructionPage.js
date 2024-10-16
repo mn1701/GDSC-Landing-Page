@@ -3,11 +3,21 @@ import { Link } from 'react-router-dom';
 
 export default function UnderConstructionPage() {
   return (
-    <div className="flex flex-col items-center justify-start pt-20 bg-gray-100 p-8">
-      <h1 className="text-4xl font-bold mb-4">Under construction...</h1>
-      <p className="text-lg mb-8">Check back in later!</p>
-      <Link to="/" className="bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600">
-        Return to Landing Page
+    <div className="bg-white flex flex-col items-center justify-center min-h-[66vh]">
+      {/* Icon */}
+      <div className="mb-8">
+        <img src="/Images/hammer-svgrepo-com.svg" alt="Under Construction" className="w-[100px] h-[100px]" />
+      </div>
+      
+      {/* Text */}
+      <h1 className="text-black text-h2 font-bold mb-4">Under Construction</h1>
+      <p className="text-black text-p1 mb-8">We're working hard to get this page up and running. Check back later!</p>
+
+      {/* Back to Home Button */}
+      <Link 
+        to="/" 
+        className="bg-[#3182CE] text-white px-6 py-2 rounded-[8px] transition duration-300 ease-in-out hover:bg-white hover:text-[#3182CE] border border-[#3182CE]">
+        Back to Home
       </Link>
     </div>
   );

@@ -6,8 +6,9 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        'md': '650px',  // Set the 'md' breakpoint to 600px
-        'lg': '800px',  // Set the 'lg' breakpoint to 800px
+        'sm' : '650px', // Set the 'sm' breakpoint to 650px
+        'md': '900px',  // Set the 'md' breakpoint to 900px
+        'lg': '1300px',  // Set the 'lg' breakpoint to 1300px
       },
       fontFamily: {
         nunito: ['"Nunito Sans"', 'sans-serif'],
