@@ -1,1 +1,3 @@
-"# GDSC-Landing-Page" 
+# GDSU Landing Page Submission
+
+## Developed by: Minh Nguyen
