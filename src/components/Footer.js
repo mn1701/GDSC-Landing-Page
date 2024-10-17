@@ -18,20 +18,20 @@ export default function Footer() {
             {/* First Column */}
             <div>
               <h3 className="font-nunito font-bold text-[16px]">Links</h3>
-              <ul className="font-nunito text-p3">
-                <li><a href="/under-construction" className="text-black">About</a></li>
-                <li><a href="/under-construction" className="text-black">Apply</a></li>
-                <li><a href="/under-construction" className="text-black">Projects</a></li>
+              <ul className="font-nunito text-p3 text-[#555555]">
+                <li><a href="/under-construction">About</a></li>
+                <li><a href="/under-construction">Apply</a></li>
+                <li><a href="/under-construction">Projects</a></li>
               </ul>
             </div>
 
             {/* Second Column */}
             <div>
               <h3 className="font-nunito font-bold text-[16px]">Students</h3>
-              <ul className="font-nunito text-p3">
-                <li><a href="/under-construction" className="text-black">FAQ</a></li>
-                <li><a href="/under-construction" className="text-black">Contact</a></li>
-                <li><a href="/under-construction" className="text-black">Newsletter</a></li>
+              <ul className="font-nunito text-p3 text-[#555555]">
+                <li><a href="/under-construction">FAQ</a></li>
+                <li><a href="/under-construction">Contact</a></li>
+                <li><a href="/under-construction">Newsletter</a></li>
               </ul>
             </div>
           </div>
