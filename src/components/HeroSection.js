@@ -119,26 +119,26 @@ export default function MainContent() {
         }`}
       >
         {/* Image Container */}
-        <div className="flex items-center justify-center w-full lg:w-[520px] h-auto lg:h-[710px] flex flex-col justify-between space-y-[60px] lg:space-y-0 mt-[80px]">
+        <div className="w-full lg:w-[520px] flex flex-col justify-between items-center lg:items-start lg:h-[710px] space-y-[60px] mt-[40px] lg:mt-0">
           <img
             src="/Images/photo2.png"
             alt="Photo2"
-            className="w-full h-auto max-w-[520px] max-h-[345px] object-contain"
+            className="w-full max-w-[520px] object-contain"
           />
           <img
             src="/Images/photo3.png"
             alt="Photo3"
-            className="w-full h-auto max-w-[520px] max-h-[345px] object-contain"
+            className="w-full max-w-[520px] object-contain"
           />
         </div>
 
         {/* Text Block */}
-        <div className="w-full lg:w-[580px] h-auto lg:h-[702px]">
-          <div className="w-full lg:w-[580px] h-auto lg:h-[596px] flex flex-col space-y-10">
+        <div className="w-full lg:w-[580px] lg:h-[710px] flex flex-col justify-between mt-[40px] lg:mt-0">
+          <div className="flex flex-col space-y-10">
             <h2 className="text-black text-h2 font-medium">Benefits of the Product Cohort</h2>
 
             {/* Text Box 1 */}
-            <div className="w-full lg:w-[580px] h-auto lg:h-[141px] flex flex-col space-y-2">
+            <div className="w-full flex flex-col space-y-2">
               <div className="flex items-center space-x-3">
                 <img src="/Images/iconY.png" alt="Icon 1" className="w-[44px] h-[46px]" />
                 <h3 className="text-[#184065] text-h3 font-medium">Hands-on Experience</h3>
@@ -151,7 +151,7 @@ export default function MainContent() {
             </div>
 
             {/* Text Box 2 */}
-            <div className="w-full lg:w-[580px] h-auto lg:h-[141px] flex flex-col space-y-2">
+            <div className="w-full flex flex-col space-y-2">
               <div className="flex items-center space-x-2">
                 <img src="/Images/iconB.png" alt="Icon 2" className="w-[44px] h-[46px]" />
                 <h3 className="text-[#184065] text-h3 font-medium">Mentorship That Matters</h3>
@@ -164,7 +164,7 @@ export default function MainContent() {
             </div>
 
             {/* Text Box 3 */}
-            <div className="w-full lg:w-[580px] h-auto lg:h-[141px] flex flex-col space-y-2">
+            <div className="w-full flex flex-col space-y-2">
               <div className="flex items-center space-x-2">
                 <img src="/Images/iconG.png" alt="Icon 3" className="w-[44px] h-[46px]" />
                 <h3 className="text-[#184065] text-h3 font-medium">A Professional Network</h3>
@@ -177,22 +177,22 @@ export default function MainContent() {
             </div>
 
             {/* Button Container */}
-            <div className="flex space-x-[20px] lg:space-x-[40px] mb-[40px]">
+            <div className="flex space-x-[20px] lg:space-x-[40px] mt-auto">
               <a
                 href="/under-construction"
                 className="w-[174px] h-[46px] bg-[#3182CE] text-white text-[16px] 
-                           rounded-[8px] flex items-center justify-center transition 
-                           duration-300 ease-in-out hover:bg-white hover:text-[#3182CE] 
-                           border border-[#3182CE]"
+                          rounded-[8px] flex items-center justify-center transition 
+                          duration-300 ease-in-out hover:bg-white hover:text-[#3182CE] 
+                          border border-[#3182CE]"
               >
                 Join our cohort
               </a>
               <a
                 href="/under-construction"
                 className="w-[143px] h-[46px] bg-white text-[#3182CE] text-[16px] 
-                           rounded-[8px] flex items-center justify-center transition 
-                           duration-300 ease-in-out hover:bg-[#3182CE] hover:text-white 
-                           border-[1.5px] border-[#3182CE]"
+                          rounded-[8px] flex items-center justify-center transition 
+                          duration-300 ease-in-out hover:bg-[#3182CE] hover:text-white 
+                          border-[1.5px] border-[#3182CE]"
               >
                 Contact us
               </a>

@@ -19,9 +19,9 @@ export default function Footer() {
             <div>
               <h3 className="font-nunito font-bold text-[16px]">Links</h3>
               <ul className="font-nunito text-p3 text-[#555555]">
-                <li><a href="/under-construction">About</a></li>
-                <li><a href="/under-construction">Apply</a></li>
-                <li><a href="/under-construction">Projects</a></li>
+                <li><a href="/under-construction" className="hover:text-[#3182CE] transition-colors duration-300">About</a></li>
+                <li><a href="/under-construction" className="hover:text-[#3182CE] transition-colors duration-300">Apply</a></li>
+                <li><a href="/under-construction" className="hover:text-[#3182CE] transition-colors duration-300">Projects</a></li>
               </ul>
             </div>
 
@@ -29,9 +29,9 @@ export default function Footer() {
             <div>
               <h3 className="font-nunito font-bold text-[16px]">Students</h3>
               <ul className="font-nunito text-p3 text-[#555555]">
-                <li><a href="/under-construction">FAQ</a></li>
-                <li><a href="/under-construction">Contact</a></li>
-                <li><a href="/under-construction">Newsletter</a></li>
+                <li><a href="/under-construction" className="hover:text-[#3182CE] transition-colors duration-300">FAQ</a></li>
+                <li><a href="/under-construction" className="hover:text-[#3182CE] transition-colors duration-300">Contact</a></li>
+                <li><a href="/under-construction" className="hover:text-[#3182CE] transition-colors duration-300">Newsletter</a></li>
               </ul>
             </div>
           </div>
@@ -39,31 +39,31 @@ export default function Footer() {
 
         {/* Block 3: Social Media Icons */}
         <div className="flex-1 flex justify-center items-center space-x-[24px] w-[236px] h-full mx-auto">
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="transform hover:scale-110 transition-transform duration-300">
             <picture>
               <source src="/Images/instagram.svg" type="image/svg+xml" />
               <img src="/Images/instagram.png" alt="Instagram" className="w-[24px] h-[24px]" />
             </picture>
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="transform hover:scale-110 transition-transform duration-300">
             <picture>
               <source src="/Images/linkedin.svg" type="image/svg+xml" />
               <img src="/Images/linkedin.png" alt="LinkedIn" className="w-[24px] h-[24px]" />
             </picture>
           </a>
-          <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="transform hover:scale-110 transition-transform duration-300">
             <picture>
               <source src="/Images/youtube.svg" type="image/svg+xml" />
               <img src="/Images/youtube.png" alt="YouTube" className="w-[24px] h-[24px]" />
             </picture>
           </a>
-          <a href="https://discord.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://discord.com" target="_blank" rel="noopener noreferrer" className="transform hover:scale-110 transition-transform duration-300">
             <picture>
               <source src="/Images/discord.svg" type="image/svg+xml" />
               <img src="/Images/discord.png" alt="Discord" className="w-[24px] h-[24px]" />
             </picture>
           </a>
-          <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" className="transform hover:scale-110 transition-transform duration-300">
             <picture>
               <source src="/Images/tiktok.svg" type="image/svg+xml" />
               <img src="/Images/tiktok.png" alt="TikTok" className="w-[24px] h-[24px]" />
