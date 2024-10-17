@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="bg-[#F9F9F9] h-[182px] w-full">
       <div className="max-w-[1440px] w-full mx-auto flex justify-between items-center px-4 h-full">
         
-        {/* Block 1: Hidden below 800px */}
+        {/* Block 1: Hidden below 900px */}
         <div className="flex-1 text-center h-full md:flex hidden flex-col justify-center">
           <img src="/Images/logo.svg" alt="GDSC Logo" className="mx-auto mb-4 w-[60px]" /> {/* Logo */}
           <h3 className="font-nunito font-bold text-p2">Google Developer Student Clubs</h3>

@@ -5,6 +5,7 @@ import HeroSection from './components/HeroSection';
 import UnderConstructionPage from './components/UnderConstructionPage';
 import Footer from './components/Footer';
 
+// routing
 function App() {
   return (
     <div className="bg-white min-h-screen">

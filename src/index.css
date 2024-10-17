@@ -1,8 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-/* Apply scaling using Tailwind utilities */
-.container {
-  @apply transform scale-90; /* Scale the container to 90% width */
-}

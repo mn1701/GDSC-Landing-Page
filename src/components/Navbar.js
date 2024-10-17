@@ -6,7 +6,7 @@ export default function Navbar() {
     <nav className="bg-white p-4 sticky top-0 z-50">
       <div className="max-w-[1160px] h-[121px] w-full mx-auto flex flex-col sm:flex-row justify-center items-center sm:justify-between">
         
-        {/* Logo on the Top for Screens Below 600px, Left for Larger Screens */}
+        {/* Logo on the Top for Screens Below 650px, Left for Larger Screens */}
         <Link to="/" className="flex items-center mb-4 sm:mb-0">
           <picture>
             <source srcSet="/Images/logo.svg" type="image/svg+xml" />
