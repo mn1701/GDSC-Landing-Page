@@ -1,10 +1,20 @@
 import React from 'react';
+import { useScrollFadeIn } from './useScrollFadeIn'; // Import the hook
 
 export default function MainContent() {
+  const firstBlock = useScrollFadeIn();
+  const secondBlock = useScrollFadeIn();
+  const thirdBlock = useScrollFadeIn();
+
   return (
     <div className="flex flex-col space-y-[140px] font-nunito-sans mt-[20px] mb-[140px]">
       {/* First Content Block */}
-      <div className="w-full flex flex-col lg:flex-row justify-center items-center h-auto lg:h-[580px]">
+      <div
+        ref={firstBlock.ref}
+        className={`w-full flex flex-col lg:flex-row justify-center items-center h-auto lg:h-[580px] transition-opacity duration-1000 ${
+          firstBlock.isVisible ? 'opacity-100' : 'opacity-0'
+        }`}
+      >
         {/* Text Block */}
         <div className="flex flex-col justify-between w-full lg:w-[578px] h-auto lg:h-[418px] px-4">
           <div className="w-full lg:w-[525px]">
@@ -55,7 +65,12 @@ export default function MainContent() {
       </div>
 
       {/* Second Content Block */}
-      <div className="w-full flex flex-col lg:flex-row justify-center items-center space-y-[40px] lg:space-y-0 lg:space-x-[44px] px-4">
+      <div
+        ref={secondBlock.ref}
+        className={`w-full flex flex-col lg:flex-row justify-center items-center space-y-[40px] lg:space-y-0 lg:space-x-[44px] px-4 transition-opacity duration-1000 ${
+          secondBlock.isVisible ? 'opacity-100' : 'opacity-0'
+        }`}
+      >
         {/* Text Block */}
         <div className="w-full lg:w-[576px] h-auto lg:h-[479px] flex flex-col space-y-[20px] font-light">
           <h2 className="text-black text-h2 font-bold">Why join the Product Cohort?</h2>
@@ -97,7 +112,12 @@ export default function MainContent() {
       </div>
 
       {/* Third Content Block */}
-      <div className="w-full flex flex-col-reverse lg:flex-row justify-center items-center space-y-[40px] lg:space-y-0 lg:space-x-[60px] px-4">
+      <div
+        ref={thirdBlock.ref}
+        className={`w-full flex flex-col-reverse lg:flex-row justify-center items-center space-y-[40px] lg:space-y-0 lg:space-x-[60px] px-4 transition-opacity duration-1000 ${
+          thirdBlock.isVisible ? 'opacity-100' : 'opacity-0'
+        }`}
+      >
         {/* Image Container */}
         <div className="flex items-center justify-center w-full lg:w-[520px] h-auto lg:h-[710px] flex flex-col justify-between space-y-[60px] lg:space-y-0 mt-[80px]">
           <img
